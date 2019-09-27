@@ -38,10 +38,6 @@ p {
 	padding-bottom: 0px;
 }
 
-#link {
-  border-bottom: 2px solid white;
-}
-
 a,
 a:visited,
 a:hover,
@@ -54,11 +50,8 @@ a:active {
 
 #link:hover,
 a:hover {
-  color: rgb(233,233,233); 
-}
-
-#link:hover {
-  border-bottom: 2px solid rgb(233,233,233);
+  color:rgb(30, 158, 209); 
+  transition: color 100ms linear;
 }
 
 header {

@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: rgb(15, 15, 15);
+    color: rgb(247, 247, 247);
+}
+
+h1 {
+    font-family: "Nunito", sans-serif;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+p {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2em;
+}
+
+a {
+    color: rgb(247, 247, 247);
+    padding-right: 7px;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: rgb(241, 196, 15);
+    transition: 0.2s;
+}
+
+.icons {
+    padding-top: 10px;
+}
+
+.wave {
+    position: absolute;
+    font-size: 3.5em;
+    transform-origin: 70% 70%;
+}
+
+.content {
+    width: 500px;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    p {
+        font-size: 18px;
+    }
+
+    .content {
+        width: auto;
+        padding: 0 50px;
+    }
+}
